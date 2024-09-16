@@ -29,7 +29,7 @@
 
 > Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
 
-Modify `template.json` using Rosé Pine variables, then build variants:
+Modify `theme.css` using Rosé Pine variables, then build variants:
 
 ```sh
 npx @rose-pine/build@latest
