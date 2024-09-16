@@ -21,9 +21,8 @@
 **Rosé Pine**  
 ![image](https://github.com/user-attachments/assets/91a2042c-6858-4e36-8f9c-7d3fa1420c22)
 
-
 **Rosé Pine Moon**  
-![image](https://github.com/user-attachments/assets/2331e3d4-9b5e-4e57-883c-ad26555f9bde)
+![image](https://github.com/user-attachments/assets/f4d20ea4-a2fd-4b6f-a485-b9f13f630830)
 
 
 **Rosé Pine Dawn**  
