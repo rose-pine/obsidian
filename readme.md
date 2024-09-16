@@ -13,9 +13,15 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Open Obsidian
+2. Navigate to the Appearence settings
+3. Click on the folder and move both the manifest.json and the css file you want to a folder named ``` Rose Pine```.
+4. Rename the css file to ```theme.css```
+
+Should look like this 
+```
+
+```
 
 ## Gallery
 **Rosé Pine**  
@@ -42,14 +48,3 @@ Modify `theme.css` using Rosé Pine variables, then build variants:
 ```sh
 npx @rose-pine/build@latest
 ```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
