@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2331e3d4-9b5e-4e57-883c-ad26555f9bde)<p align="center">
+<p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
     <h2 align="center">Rosé Pine for Obsidian</h2>
 </p>
@@ -23,7 +23,7 @@
 
 
 **Rosé Pine Moon**  
-![image](https://github.com/user-attachments/assets/52595bdc-42be-4b3f-bf5d-a8cec7bed5f5)
+![image](https://github.com/user-attachments/assets/2331e3d4-9b5e-4e57-883c-ad26555f9bde)
 
 
 **Rosé Pine Dawn**  
