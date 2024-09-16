@@ -20,7 +20,10 @@
 
 Should look like this 
 ```
-
+.
+└── Rose Pine
+    ├── manifest.json
+    └── theme.css
 ```
 
 ## Gallery
