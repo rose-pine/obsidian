@@ -15,7 +15,6 @@
 	}
 
 	.theme-light {
-
     }
 
     .theme-dark {
@@ -45,8 +44,8 @@
 
 	  --text-on-accent: $iris;
 	  --interactive-normal: $overlay;
-	  --interactive-hover: $rose;
-	  --interactive-accent: $rose;
+	  --interactive-hover: $highlightLow;
+	  --interactive-accent: $highlightLow;
 	  --interactive-accent-hover: $rose;
 	  --scrollbar-active-thumb-bg: $overlay;
 	  --scrollbar-bg: $overlay;
@@ -64,8 +63,6 @@
 	  --blockquote-border: $love;
 	  --vim-cursor: $rose;
 	  --border-color: $highlightMed;
-
-
 	}
 
 	button{

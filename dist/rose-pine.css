@@ -15,7 +15,6 @@
 	}
 
 	.theme-light {
-
     }
 
     .theme-dark {
@@ -45,8 +44,8 @@
 
 	  --text-on-accent: #c4a7e7;
 	  --interactive-normal: #26233a;
-	  --interactive-hover: #ebbcba;
-	  --interactive-accent: #ebbcba;
+	  --interactive-hover: #21202e;
+	  --interactive-accent: #21202e;
 	  --interactive-accent-hover: #ebbcba;
 	  --scrollbar-active-thumb-bg: #26233a;
 	  --scrollbar-bg: #26233a;
@@ -64,8 +63,6 @@
 	  --blockquote-border: #eb6f92;
 	  --vim-cursor: #ebbcba;
 	  --border-color: #403d52;
-
-
 	}
 
 	button{
