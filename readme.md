@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/user-attachments/assets/2331e3d4-9b5e-4e57-883c-ad26555f9bde)<p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
     <h2 align="center">Rosé Pine for Obsidian</h2>
 </p>
@@ -18,8 +18,17 @@
 3. Select `Rosé Pine` from the themes dropdown
 
 ## Gallery
+**Rosé Pine**  
+![image](https://github.com/user-attachments/assets/91a2042c-6858-4e36-8f9c-7d3fa1420c22)
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+
+**Rosé Pine Moon**  
+![image](https://github.com/user-attachments/assets/52595bdc-42be-4b3f-bf5d-a8cec7bed5f5)
+
+
+**Rosé Pine Dawn**  
+![image](https://github.com/user-attachments/assets/4539e866-6bcb-4fda-aa99-675524726024)
+
 
 ## Thanks to
 
