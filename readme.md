@@ -15,7 +15,7 @@
 
 1. Open Obsidian
 2. Navigate to the Appearence settings
-3. Click on the folder and move both the manifest.json and the css file you want to a folder named ``` Rose Pine```.
+3. Click on the folder and move both the manifest.json and the css file you want to a folder named ```rose-pine```.
 
 Should look like this
 ```
