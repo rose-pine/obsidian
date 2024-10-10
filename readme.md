@@ -14,17 +14,35 @@
 ## Usage
 
 1. Open Obsidian
+2. Navigate to the Appearence settings
+3. Click on the folder and move both the manifest.json and the css file you want to a folder named ``` Rose Pine```.
+
+Should look like this
+```
+.
+└── Rose Pine
+    ├── manifest.json
+    └── theme.css
+```
+
+1. Open Obsidian
 2. Disable Safe Mode
 3. Navigate to the "Appearance" section
 4. Go to Themes
-5. Select Rose Pine Moon from the options. 
+5. Select Rose Pine Moon from the options.
 
 ## Gallery
-![Social Image Header](assets/Obsidian.png)
-![Rosé Pine Moon on Obsidian](assets/template.png)
+**Rosé Pine**
+![image](https://github.com/user-attachments/assets/91a2042c-6858-4e36-8f9c-7d3fa1420c22)
+
+**Rosé Pine Moon**
+![image](https://github.com/user-attachments/assets/f4d20ea4-a2fd-4b6f-a485-b9f13f630830)
+
+
+**Rosé Pine Dawn**
+![image](https://github.com/user-attachments/assets/4539e866-6bcb-4fda-aa99-675524726024)
 
 ## Thanks to
 
 - [mimishahzad](https://github.com/mimishahzad)
-
-
+- [JTrenerry](https://github.com/JTrenerry)
