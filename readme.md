@@ -26,6 +26,12 @@ Should look like this
     └── theme.css
 ```
 
+1. Open Obsidian
+2. Disable Safe Mode
+3. Navigate to the "Appearance" section
+4. Go to Themes
+5. Select Rose Pine Moon from the options.
+
 ## Gallery
 **Rosé Pine**
 ![image](https://github.com/user-attachments/assets/91a2042c-6858-4e36-8f9c-7d3fa1420c22)
@@ -37,7 +43,7 @@ Should look like this
 **Rosé Pine Dawn**
 ![image](https://github.com/user-attachments/assets/4539e866-6bcb-4fda-aa99-675524726024)
 
-
 ## Thanks to
 
+- [mimishahzad](https://github.com/mimishahzad)
 - [JTrenerry](https://github.com/JTrenerry)
