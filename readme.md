@@ -25,11 +25,25 @@ Should look like this
     └── theme.css
 ```
 
-1. Open Obsidian
-2. Disable Safe Mode
-3. Navigate to the "Appearance" section
-4. Go to Themes
-5. Select Rose Pine Moon from the options.
+### Style Settings plugin installation and use (Taken from [catppuccin obsidian](https://github.com/catppuccin/obsidian/tree/main))
+
+A note on Style Settings setup from [pitoniak32](https://github.com/pitoniak32):
+
+> To install Style Settings, open Obsidian's `Preferences`, and navigate to the
+> OPTIONS section, select `Community plugins` and ensure that `Restricted Mode` is
+> off.
+>
+> Now you can search
+> for "[Style Settings](https://github.com/mgmeyers/obsidian-style-settings#obsidian-style-settings-plugin)"
+> by mgmeyers.
+> Once you have the plugin installed, you should be able to see a heading
+> entry `Style Settings` on the left under `COMMUNITY PLUGINS` in
+> the `Preferences` window.
+>
+> From there you can select, and configure your variant, and make
+> customizations :)
+
+
 
 ## Gallery
 **Rosé Pine**  
