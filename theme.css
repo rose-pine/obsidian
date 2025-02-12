@@ -106,12 +106,13 @@
 	  --scrollbar-bg: var(--rp-overlay);
 	  --scrollbar-thumb-bg: var(--rp-overlay);
 
-	  --text-title-h1: var(--rp-love);
-	  --text-title-h2: var(--rp-iris);
-	  --text-title-h3: var(--rp-rose);
-	  --text-title-h4: var(--rp-gold);
-	  --text-title-h5: var(--rp-pine);
-	  --text-title-h6: var(--rp-foam);
+      --rp-h1: var(--rp-love);
+      --rp-h2: var(--rp-iris);
+      --rp-h3: var(--rp-rose);
+      --rp-h4: var(--rp-gold);
+      --rp-h5: var(--rp-foam);
+      --rp-h6: var(--rp-pine);
+
 	  --inline-code: var(--rp-iris);
 	  --code-block: var(--rp-foam);
 	  --pre-code: var(--rp-highlightLow);
@@ -167,6 +168,168 @@ settings:
       -
         label: Foam
         value: rp-accent-foam
+    */
+
+/* @settings
+name: "Rose Pine Header Colours"
+id: rose-pine-headers
+settings:
+  -
+    id: rp-h1
+    title: H1 colour
+    description: Select your H1 colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-love)
+    options:
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
+  -
+    id: rp-h2
+    title: H2 colour
+    description: Select your H2 colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-iris)
+    options:
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
+  -
+    id: rp-h3
+    title: H3 colour
+    description: Select your H3 colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-rose)
+    options:
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
+  -
+    id: rp-h4
+    title: H4 colour
+    description: Select your H4 colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-gold)
+    options:
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
+  -
+    id: rp-h5
+    title: H5 colour
+    description: Select your H5 colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-foam)
+    options:
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
+  -
+    id: rp-h6
+    title: H6 colour
+    description: Select your H6 colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-pine)
+    options:
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
 */
 
 .rp-accent-rose,
@@ -409,7 +572,7 @@ settings:
 	  font-family: var(--font-family-editor);
 	  font-weight: 500;
 	  font-size: var(--font-size-h1);
-	  color: var(--text-title-h1);
+	  color: var(--rp-h1);
 	}
 
 	.cm-header-2,
@@ -417,7 +580,7 @@ settings:
 	  font-family: var(--font-family-editor);
 	  font-weight: 500;
 	  font-size: var(--font-size-h2);
-	  color: var(--text-title-h2);
+	  color: var(--rp-h2);
 	}
 
 	.cm-header-3,
@@ -425,7 +588,7 @@ settings:
 	  font-family: var(--font-family-editor);
 	  font-weight: 500;
 	  font-size: var(--font-size-h3);
-	  color: var(--text-title-h3);
+	  color: var(--rp-h3);
 	}
 
 	.cm-header-4,
@@ -433,7 +596,7 @@ settings:
 	  font-family: var(--font-family-editor);
 	  font-weight: 500;
 	  font-size: var(--font-size-h4);
-	  color: var(--text-title-h4);
+	  color: var(--rp-h4);
 	}
 
 	.cm-header-5,
@@ -441,7 +604,7 @@ settings:
 	  font-family: var(--font-family-editor);
 	  font-weight: 500;
 	  font-size: var(--font-size-h5);
-	  color: var(--text-title-h5);
+	  color: var(--rp-h5);
 	}
 
 	.cm-header-6,
@@ -449,7 +612,7 @@ settings:
 	  font-family: var(--font-family-editor);
 	  font-weight: 500;
 	  font-size: var(--font-size-h6);
-	  color: var(--text-title-h6);
+	  color: var(--rp-h6);
 	}
 
 	/* code blocks in preview */
