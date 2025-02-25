@@ -332,6 +332,46 @@ settings:
       value: var(--rp-foam)
 */
 
+/* @settings
+name: "Rose Pine Misc Config"
+id: rose-pine-misc
+settings:
+  -
+    id: rp-highlight
+    title: Highlight Colour
+    description: Select your highlighted colour
+    type: variable-select
+    allowEmpty: false
+    default: var(--rp-highlightHigh)
+    options:
+    -
+      label: Low
+      value: var(--rp-highlightLow)
+    -
+      label: Med
+      value: var(--rp-highlightMed)
+    -
+      label: High
+      value: var(--rp-highlightHigh)
+    -
+      label: Love
+      value: var(--rp-love)
+    -
+      label: Rose
+      value: var(--rp-rose)
+    -
+      label: Gold
+      value: var(--rp-gold)
+    -
+      label: Iris
+      value: var(--rp-iris)
+    -
+      label: Pine
+      value: var(--rp-pine)
+    -
+      label: Foam
+      value: var(--rp-foam)
+
 .rp-accent-rose,
 .rp-accent-full {
     --rp-accent: var(--rp-rose)
