@@ -398,10 +398,10 @@ settings:
 }
 
     button{
-		font-family: "Cartograph CF" !important;
-		font-style: italic !important;
-		background-color: var(--rp-overlay) !important;
-		color: var(--rp-foam) !important;
+		font-family: "Cartograph CF";
+		font-style: italic;
+		background-color: var(--rp-overlay);
+		color: var(--rp-foam);
 	}
 
 	.workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
