@@ -91,7 +91,7 @@
 	  --text-normal: var(--rp-text);
 	  --text-muted: var(--rp-muted);
 	  --text-faint: var(--rp-accent);
-	  --text-highlight-bg: var(--rp-highlightLow);
+	  --text-highlight-bg: var(--rp-highlight);
 	  --text-error: var(--rp-love);
 	  --text-error-hover: var(--rp-love);
 	  --text-selection: var(--rp-highlightHigh);
@@ -371,6 +371,7 @@ settings:
     -
       label: Foam
       value: var(--rp-foam)
+*/
 
 .rp-accent-rose,
 .rp-accent-full {
