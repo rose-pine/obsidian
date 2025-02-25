@@ -12,18 +12,10 @@
 </p>
 
 ## Usage
+To install from the Obsidian theme store:
 
-1. Open Obsidian
-2. Navigate to the Appearence settings
-3. Click on the folder and move both the manifest.json and the css file you want to a folder named ```rose-pine```.
-
-Should look like this
-```
-.
-└── Rose Pine
-    ├── manifest.json
-    └── theme.css
-```
+Open Obsidian and go to `Preferences` >> `Appearance`, click `Manage` and scroll down to 'Community Themes.' Type '
+Rose Pine' in the filter bar and then click 'Use' under the theme name.
 
 ### Style Settings plugin installation and use (Taken from [catppuccin obsidian](https://github.com/catppuccin/obsidian/tree/main))
 
