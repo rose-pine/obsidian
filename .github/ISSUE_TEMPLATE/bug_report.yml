@@ -37,8 +37,6 @@ body:
       label: "Steps to Reproduce"
       description: "List the steps needed to reproduce the issue."
       placeholder: "1. Go to Settings > Appearance\n2. Enable the Rose Pine theme\n3. Observe missing text in the sidebar"
-    validations:
-      required: true
   
   - type: textarea
     id: screenshots
