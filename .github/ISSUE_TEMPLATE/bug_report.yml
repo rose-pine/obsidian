@@ -1,0 +1,58 @@
+name: "Bug Report"
+description: "Report a bug with the Obsidian Rose Pine theme"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "### Thanks for taking the time to report a bug! Please fill out the details below."
+  
+  - type: input
+    id: obsidian-version
+    attributes:
+      label: "Obsidian Version"
+      description: "Which version of Obsidian are you using?"
+      placeholder: "e.g., v1.5.3"
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: checked-updates
+    attributes:
+      label: "Checked for Updates"
+      description: "Have you checked if you are using the latest version of Obsidian and the Rose Pine theme?"
+      options:
+        - label: "Yes, I have checked for updates and the issue persists."
+          required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "Bug Description"
+      description: "Provide a clear and concise description of the bug."
+      placeholder: "When I enable the theme, the sidebar text disappears."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps needed to reproduce the issue."
+      placeholder: "1. Go to Settings > Appearance\n2. Enable the Rose Pine theme\n3. Observe missing text in the sidebar"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "If applicable, add screenshots to help explain the issue."
+      placeholder: "Drag and drop screenshots here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Info"
+      description: "Any other context, system information, or notes?"
