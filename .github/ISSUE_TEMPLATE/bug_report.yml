@@ -6,15 +6,6 @@ body:
     attributes:
       value: "### Thanks for taking the time to report a bug! Please fill out the details below."
   
-  - type: input
-    id: obsidian-version
-    attributes:
-      label: "Obsidian Version"
-      description: "Which version of Obsidian are you using?"
-      placeholder: "e.g., v1.5.3"
-    validations:
-      required: true
-  
   - type: checkboxes
     id: checked-updates
     attributes:
@@ -23,6 +14,13 @@ body:
       options:
         - label: "Yes, I have checked for updates and the issue persists."
           required: true
+
+  - type: textarea
+    id: plugin
+    attributes:
+      label: "Plugin"
+      description: "If it is a plugin that is effected, please enter the name and author of it"
+      placeholder: "Enter name here"
 
   - type: textarea
     id: bug-description
@@ -50,6 +48,7 @@ body:
       placeholder: "Drag and drop screenshots here."
     validations:
       required: true
+      
 
   - type: textarea
     id: additional-info
