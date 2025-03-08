@@ -482,16 +482,16 @@ settings:
 	  color: var(--text-accent) !important;
 	}
 
-	.cm-fat-cursor .CodeMirror-cursor {
+	.cm-fat-cursor {
  	   background-color: var(--text-selection) !important;
+	   color: var(--rp-accent) !important;
  	   opacity: 0.5 !important;
- 	   width: 5px;
 	}
 
 	.cm-animate-fat-cursor {
 	  background-color: var(--text-selection) !important;
+	  color: var(--rp-accent) !important;
 	  opacity: 0.5 !important;
- 	  width: 5px;
 	}
 
 	.app-container {
