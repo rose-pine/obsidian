@@ -491,6 +491,7 @@ settings:
 
 	.cm-fat-cursor .cm-cursor-primary {
 	  background-color: var(--text-selection) !important;
+	  color: var(--rp-text) !important;
 	}
 
 	.app-container {
