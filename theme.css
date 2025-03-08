@@ -489,6 +489,10 @@ settings:
 	  opacity: 60% !important;
 	}
 
+	.cm-fat-cursor .cm-cursor-primary {
+	  background-color: var(--text-selection) !important;
+	}
+
 	.app-container {
 	  font-family: var(--font-family-preview);
 	}
