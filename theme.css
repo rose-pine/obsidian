@@ -483,14 +483,14 @@ settings:
 	}
 
 	.cm-fat-cursor .CodeMirror-cursor {
- 	   background-color: var(--text-selection);
- 	   opacity: 0.5;
+ 	   background-color: var(--text-selection) !important;
+ 	   opacity: 0.5 !important;
  	   width: 5px;
 	}
 
 	.cm-animate-fat-cursor {
-	  background-color: var(--text-selection);
-	  opacity: 0.5;
+	  background-color: var(--text-selection) !important;
+	  opacity: 0.5 !important;
  	  width: 5px;
 	}
 
