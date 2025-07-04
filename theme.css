@@ -482,11 +482,16 @@ settings:
 	  color: var(--text-accent) !important;
 	}
 
-	.cm-fat-cursor .CodeMirror-cursor,
+	.cm-fat-cursor {
+ 	   background-color: var(--text-selection) !important;
+	   color: var(--rp-accent) !important;
+ 	   opacity: 0.5 !important;
+	}
+
 	.cm-animate-fat-cursor {
-	  width: 0.5em;
-	  background: var(--vim-cursor);
-	  opacity: 60% !important;
+	  background-color: var(--text-selection) !important;
+	  color: var(--rp-accent) !important;
+	  opacity: 0.5 !important;
 	}
 
 	.app-container {
