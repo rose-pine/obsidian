@@ -398,7 +398,7 @@ settings:
 }
 
     button{
-		font-family: "Cartograph CF";
+		font-family: "JetBrains Mono";
 		font-style: italic;
 		background-color: var(--rp-overlay);
 		color: var(--rp-foam);
@@ -520,7 +520,7 @@ settings:
 	.cm-em,
 	em {
 	  color: var(--rp-iris) !important;
-	  font-family: 'Cartograph CF' !important;
+	  font-family: 'JetBrains Mono' !important;
 	}
 
 	.cm-em.cm-formatting-em {
@@ -663,7 +663,7 @@ settings:
 
 	/* code blocks in preview */
 	pre code {
-	  font-family: "Cartograph CF" !important;
+	  font-family: "JetBrains Mono" !important;
 	  font-size: 14 !important;
 	  padding: 6px !important;
 	  line-height: normal;
@@ -885,8 +885,8 @@ settings:
 	}
 
 	.day.svelte-q3wqg9:active, .active.svelte-q3wqg9, .active.today.svelte-q3wqg9 {
-		background-color: var(--rp-highlightHigh) !important;
-		color: var(--rp-foam) !important;
+		background-color: var(--rp-highlightHigh);
+		color: var(--rp-foam);
 	}
 
 	.view-header-title-container:after {
@@ -944,7 +944,7 @@ settings:
 
 	/* Editor CodeBlock TEXT Appearance */
 	.cm-s-obsidian pre.HyperMD-codeblock {
-	  font-family: "Cartograph CF" !important;
+	  font-family: "JetBrains Mono" !important;
 	  font-size: var(--font-size-code) !important;
 	  padding: 1px !important;
 	  display: block;
@@ -995,7 +995,7 @@ settings:
 
 	em,
 	.cm-em {
-	  font-family: 'Cartograph CF';
+	  font-family: 'JetBrains Mono';
 	  font-style: italic;
 	  color: var(--text-accent);
 	}
