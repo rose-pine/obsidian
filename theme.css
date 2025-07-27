@@ -10,8 +10,11 @@
 	  --font-size-h4: 20px;
 	  --font-size-h5: 19px;
 	  --font-size-h6: 18px;
-	  --font-family-editor: Avenir, Avenir Next, sans-serif;
-	  --font-family-preview: Avenir, Avenir Next, sans-serif;
+
+      --font-family-editor: "Inter", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      --font-family-preview: Georgia, "Times New Roman", serif;
+      --font-family-code: "JetBrains Mono", "Fira Code", "Courier New", monospace;
+      --font-family-accent: "Inter", "Segoe UI", "Helvetica Neue", sans-serif;
 	}
 
 	.theme-light,
@@ -83,7 +86,7 @@
 	  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
 	  --background-modifier-success: var(--rp-pine);
 
-	  --background-modifier-error: var(--rp-love);
+      --background-modifier-error: var(--rp-love);
 	  --background-modifier-error-hover: var(--rp-love);
 	  --background-modifier-cover: rgba(0, 0, 0, 0.6);
 	  --text-accent: var(--rp-accent);
@@ -119,6 +122,8 @@
 	  --blockquote-border: var(--rp-love);
 	  --vim-cursor: var(--rp-rose);
 	  --border-color: var(--rp-highlightMed);
+
+      --font-monospace: var(--font-family-code);
     }
 
 /* @settings
@@ -235,7 +240,7 @@ settings:
     default: var(--rp-rose)
     options:
     -
-      label: Love
+      label: Lovesans-serif
       value: var(--rp-love)
     -
       label: Rose
@@ -371,6 +376,30 @@ settings:
     -
       label: Foam
       value: var(--rp-foam)
+  -
+    id: font-family-editor
+    title: Editor font
+    description: Font used for the editors modes
+    type: variable-text
+    default: '"Inter", "Segoe UI", Roboto, "Helvetica Neue", sans-serif'
+  -
+    id: font-family-preview
+    title: Preview font
+    description: Font used for the preview modes
+    type: variable-text
+    default: 'Georgia, "Times New Roman", serif'
+  -
+    id: font-family-accent
+    title: Accent font
+    description: Font used for the buttons and other accents
+    type: variable-text
+    default: '"Inter", "Segoe UI", "Helvetica Neue", sans-serif'
+  -
+    id: font-family-code
+    title: Code font
+    description: Font used for the code blocks
+    type: variable-text
+    default: '"JetBrains Mono", "Fira Code", "Courier New", monospace'
 */
 
 .rp-accent-rose,
@@ -396,6 +425,7 @@ settings:
 .rp-accent-love {
     --rp-accent: var(--rp-love)
 }
+
 
     button{
 		font-family: "JetBrains Mono";
@@ -495,7 +525,7 @@ settings:
 	}
 
 	.app-container {
-	  font-family: var(--font-family-preview);
+	  font-family: var(--font-family-accent) !important;
 	}
 
 	::selection {
@@ -504,17 +534,22 @@ settings:
 
     .cm-s-obsidian,
 	.mod-single-child .cm-s-obsidian {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-editor) !important;
 	  font-size: var(--font-size-normal);
 	}
 
 	.markdown-preview-view,
 	.mod-single-child .markdown-preview-view {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-preview) !important;
 	  font-size: var(--font-size-normal);
 	  padding-top: 0px;
 	  padding-left: 2% !important;
 	  padding-right: 1% !important;
+	}
+
+    .markdown-source-view.mod-cm6 .cm-scroller {
+	  font-family: var(--font-family-editor) !important;
+	  font-size: var(--font-size-normal);
 	}
 
 	.cm-em,
@@ -612,10 +647,8 @@ settings:
 	.community-theme img:hover {
 	  transform: none;
 	}
-
-	.cm-header-1,
-	.markdown-preview-view h1 {
-	  font-family: var(--font-family-editor);
+font-family-previewmarkdown-preview-view h1 {
+	  font-family: var(--font-family-editor) !important;
 	  font-weight: 500;
 	  font-size: var(--font-size-h1);
 	  color: var(--rp-h1);
@@ -623,7 +656,7 @@ settings:
 
 	.cm-header-2,
 	.markdown-preview-view h2 {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-editor) !important;
 	  font-weight: 500;
 	  font-size: var(--font-size-h2);
 	  color: var(--rp-h2);
@@ -631,7 +664,7 @@ settings:
 
 	.cm-header-3,
 	.markdown-preview-view h3 {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-editor) !important;
 	  font-weight: 500;
 	  font-size: var(--font-size-h3);
 	  color: var(--rp-h3);
@@ -639,7 +672,7 @@ settings:
 
 	.cm-header-4,
 	.markdown-preview-view h4 {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-editor) !important;
 	  font-weight: 500;
 	  font-size: var(--font-size-h4);
 	  color: var(--rp-h4);
@@ -647,7 +680,7 @@ settings:
 
 	.cm-header-5,
 	.markdown-preview-view h5 {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-editor) !important;
 	  font-weight: 500;
 	  font-size: var(--font-size-h5);
 	  color: var(--rp-h5);
@@ -655,7 +688,7 @@ settings:
 
 	.cm-header-6,
 	.markdown-preview-view h6 {
-	  font-family: var(--font-family-editor);
+	  font-family: var(--font-family-editor) !important;
 	  font-weight: 500;
 	  font-size: var(--font-size-h6);
 	  color: var(--rp-h6);
@@ -944,7 +977,7 @@ settings:
 
 	/* Editor CodeBlock TEXT Appearance */
 	.cm-s-obsidian pre.HyperMD-codeblock {
-	  font-family: "JetBrains Mono" !important;
+	  font-family: var(--font-family-code) !important;
 	  font-size: var(--font-size-code) !important;
 	  padding: 1px !important;
 	  display: block;
