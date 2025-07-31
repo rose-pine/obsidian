@@ -15,7 +15,11 @@ jobs:
 
       - name: Concatenate CSS files
         run: |
-          at src/*.css > theme.css
+          cat src/*.css | \
+          sed 's:/\*[^*]*\*+([^/*][^*]*\*+)*/::g' | \
+          sed 's://.*::g' | \
+          sed 's/^[ \t]*//;s/[ \t]*$//' | \
+          tr -d '\n' | tr -s ' ' > theme.css
 
       - name: Commit and push if changed
         run: |
