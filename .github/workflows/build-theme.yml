@@ -17,8 +17,7 @@ jobs:
           cat src/*.css | \
           sed 's:/\*.*\*/::g' | \
           sed '/^\s*$/d' | \
-          sed 's/^[ \t]*//;s/[ \t]*$//' | \
-          sed 's/\s\+/ /g' > theme.css
+          sed 's/[ \t]*$//' > theme.css
 
       - name: Commit and push if changed
         run: |
