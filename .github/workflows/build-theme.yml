@@ -3,7 +3,6 @@ name: Build Theme CSS
 on:
   push:
     branches: [main]
-  pull_request:
 
 jobs:
   build-css:
