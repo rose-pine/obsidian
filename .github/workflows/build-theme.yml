@@ -15,7 +15,7 @@ jobs:
 
       - name: Concatenate CSS files
         run: |
-          at src/*.css > theme.css
+          cat src/*.css > theme.css
 
       - name: Commit and push if changed
         run: |
