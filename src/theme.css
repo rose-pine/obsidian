@@ -607,8 +607,6 @@ em,
 
 .cm-s-obsidian span.cm-link,
 .cm-s-obsidian span.cm-hmd-internal-link {
-  text-shadow: -1px -1px 2px var(--background-secondary), -1px 1px 2px var(--background-secondary),
-	1px -1px 2px var(--background-secondary), 1px 1px 2px var(--background-secondary);
   color: var(--text-normal);
   background-position: 0 100%;
   background-repeat: repeat-x;
