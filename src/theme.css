@@ -634,8 +634,6 @@ em,
 }
 
 .internal-link {
-  text-shadow: -1px -1px 2px var(--background-primary), -1px 1px 2px var(--background-primary),
-	1px -1px 2px var(--background-primary), 1px 1px 2px var(--background-primary);
   -webkit-text-fill-color: var(--rp-foam);
   background-position: 0 100%;
   background-repeat: repeat-x;
@@ -645,8 +643,6 @@ em,
 }
 
 .external-link {
-  text-shadow: -1px -1px 2px var(--background-primary), -1px 1px 2px var(--background-primary),
-	1px -1px 2px var(--background-primary), 1px 1px 2px var(--background-primary);
   -webkit-text-fill-color: var(--rp-pine);
   background-position: 0 100%;
   background-repeat: repeat-x;
@@ -666,17 +662,11 @@ em,
 }
 
 .internal-link:hover {
-  text-shadow: -1px -1px 2px var(--background-modifier-border),
-	-1px 1px 2px var(--background-modifier-border), 1px -1px 2px var(--background-modifier-border),
-	1px 1px 2px var(--background-modifier-border);
   -webkit-text-fill-color: var(--text-accent);
   background-size: 4px 50px;
 }
 
 .external-link:hover {
-  text-shadow: -1px -1px 2px var(--background-modifier-border),
-	-1px 1px 2px var(--background-modifier-border), 1px -1px 2px var(--background-modifier-border),
-	1px 1px 2px var(--background-modifier-border);
   -webkit-text-fill-color: var(--text-sub-accent);
   background-size: 4px 50px;
 }
