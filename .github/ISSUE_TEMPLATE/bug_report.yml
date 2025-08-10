@@ -34,7 +34,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: "Steps to Reproduce"
+      label: "Steps to Reproduce / Example text"
       description: "List the steps needed to reproduce the issue."
       placeholder: "1. Go to Settings > Appearance\n2. Enable the Rose Pine theme\n3. Observe missing text in the sidebar"
   
