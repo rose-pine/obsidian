@@ -347,7 +347,6 @@ em {
 .markdown-preview-view code {
   font-size: var(--font-size-code);
 }
-.font-family-preview
 .cm-header-1,
 .markdown-preview-view h1 {
   font-family: var(--font-family-editor) !important;
