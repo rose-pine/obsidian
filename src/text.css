@@ -18,6 +18,7 @@
 /* HEADERS */
 
 .font-family-preview
+.cm-header-1,
 .markdown-preview-view h1 {
   font-family: var(--font-family-editor) !important;
   font-weight: 500;
