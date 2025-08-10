@@ -1,0 +1,39 @@
+name: "Suggestion"
+description: "Make a suggestion for a change"
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "### Thanks for taking the time to make a suggestion! Please fill out the details below."
+
+  - type: textarea
+    id: plugin
+    attributes:
+      label: "Plugin"
+      description: "If it is a plugin that is effected, please enter the name and author of it"
+      placeholder: "Enter name here"
+
+  - type: textarea
+    id: suggestion-description
+    attributes:
+      label: "Suggestion Description"
+      description: "Describe what you want added or changed in words"
+      placeholder: "I want font size to be changed in style settings."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "If applicable, add screenshots to help explain the change."
+      placeholder: "Drag and drop screenshots here."
+    validations:
+      required: true
+      
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "Additional Info"
+      description: "Any other context, system information, or notes?"
