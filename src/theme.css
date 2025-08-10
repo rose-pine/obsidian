@@ -123,18 +123,6 @@ a:not(.internal-link) {
   font-size: var(--font-size-normal);
 }
 
-.cm-em,
-em {
-  color: var(--rp-iris) !important;
-  font-family: var(--font-family-accent) !important;
-}
-
-.cm-em.cm-formatting-em {
-  display: inline-flex;
-  width: 0.45rem;
-  font-size: 0.6rem;
-  vertical-align: text-top;
-}
 
 .cm-strong:not(.cm-formatting-strong),
 strong {
@@ -185,86 +173,16 @@ strong kbd {
   -webkit-text-fill-color: initial;
 }
 
-s,
-.cm-strikethrough {
-  color: var(--text-muted);
-}
-
-
 .cm-s-obsidian span.cm-formatting-list {
   color: var(--text-normal) !important;
 }
 
 
 .markdown-preview-view hr {
-
   border-top: none !important;
   border-color: none !important;
 }
 
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-img:hover {
-  transform: scale(1.04);
-  transition: transform 0.25s ease-in-out 0s;
-}
-
-.community-theme img:hover {
-  transform: none;
-}
-
-font-family-previewmarkdown-preview-view h1 {
-  font-family: var(--font-family-editor) !important;
-  font-weight: 500;
-  font-size: var(--font-size-h1);
-  color: var(--rp-h1);
-}
-
-.cm-header-2,
-.markdown-preview-view h2 {
-  font-family: var(--font-family-editor) !important;
-  font-weight: 500;
-  font-size: var(--font-size-h2);
-  color: var(--rp-h2);
-}
-
-.cm-header-3,
-.markdown-preview-view h3 {
-  font-family: var(--font-family-editor) !important;
-  font-weight: 500;
-  font-size: var(--font-size-h3);
-  color: var(--rp-h3);
-}
-
-.cm-header-4,
-.markdown-preview-view h4 {
-  font-family: var(--font-family-editor) !important;
-  font-weight: 500;
-  font-size: var(--font-size-h4);
-  color: var(--rp-h4);
-}
-
-.cm-header-5,
-.markdown-preview-view h5 {
-  font-family: var(--font-family-editor) !important;
-  font-weight: 500;
-  font-size: var(--font-size-h5);
-  color: var(--rp-h5);
-}
-
-.cm-header-6,
-.markdown-preview-view h6 {
-  font-family: var(--font-family-editor) !important;
-  font-weight: 500;
-  font-size: var(--font-size-h6);
-  color: var(--rp-h6);
-}
 
 /* code blocks in preview */
 pre code {
@@ -282,9 +200,6 @@ pre code {
 }
 
 /* font-size of in-line block for preview */
-.markdown-preview-view code {
-  font-size: var(--font-size-code);
-}
 
 .theme-dark code[class*="language-"],
 .theme-dark pre[class*="language-"],
@@ -304,16 +219,6 @@ pre code {
   font-style: italic;
 }
 
-.markdown-preview-view blockquote {
-  background-color: var(--pre-code);
-  border: 0px solid;
-  border-color: var(--blockquote-border) !important;
-  border-left-width: 4px !important;
-  border-radius: 0 8px 8px 0;
-  line-height: 1.5em;
-  margin: 30px 0px;
-  font-style: italic;
-}
 
 th {
   font-weight: 800 !important;
@@ -677,8 +582,6 @@ a,
 .cm-link {
   text-decoration: none !important;
   color: var(--text-sub-accent);
-  position: relative;
-  z-index: 1;
 }
 
 .cm-url {

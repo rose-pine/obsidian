@@ -1,0 +1,18 @@
+s,
+.cm-strikethrough {
+  color: var(--text-muted);
+}
+
+
+.cm-em,
+em {
+  color: var(--rp-iris) !important;
+  font-family: var(--font-family-accent) !important;
+}
+
+.cm-em.cm-formatting-em {
+  display: inline-flex;
+  width: 0.45rem;
+  font-size: 0.6rem;
+  vertical-align: text-top;
+}
