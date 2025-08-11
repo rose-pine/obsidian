@@ -207,7 +207,7 @@ pre code {
 .theme-light pre[class*="language-"] {
   text-shadow: none !important;
   color: var(--text-faint) !important;
-  background-color: var(--pre-code);
+  background-color: var(--code-background);
 }
 
 .cm-s-obsidian span.cm-formatting-link {
@@ -447,7 +447,7 @@ ul .task-list-item ul::before {
 .cm-s-obsidian span.cm-inline-code,
 .cm-s-obsidian span.cm-inline-code.cm-hmd-indented-code,
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code) {
-  background-color: var(--pre-code-bg);
+  background-color: var(--code-background);
   color: var(--inline-code) !important;
   bottom: 0px !important;
 }
