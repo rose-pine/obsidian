@@ -1,7 +1,22 @@
 /* Preview */
 
+.body {
+  --blockquote-background-color: var(--code-background);
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+  background-color: var(--code-background);
+  border: 0px solid;
+  border-color: var(--blockquote-border) !important;
+  border-left-width: 4px !important;
+  border-radius: 0 8px 8px 0;
+  line-height: 1.5em;
+  margin: 30px 0px;
+  font-style: italic;
+}
+
 .markdown-preview-view blockquote {
-  background-color: var(--pre-code);
+  background-color: var(--code-background);
   border: 0px solid;
   border-color: var(--blockquote-border) !important;
   border-left-width: 4px !important;
