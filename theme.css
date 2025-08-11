@@ -319,7 +319,6 @@ settings:
 .rp-accent-love {
     --rp-accent: var(--rp-love)
 }
-<<<<<<< Updated upstream
 s,
 .cm-strikethrough {
   color: var(--text-muted);
@@ -335,9 +334,6 @@ em {
   font-size: 0.6rem;
   vertical-align: text-top;
 }
-.markdown-preview-view blockquote {
-  background-color: var(--pre-code);
-=======
 .body {
   --blockquote-background-color: var(--code-background);
 }
@@ -353,7 +349,6 @@ em {
 }
 .markdown-preview-view blockquote {
   background-color: var(--code-background);
->>>>>>> Stashed changes
   border: 0px solid;
   border-color: var(--blockquote-border) !important;
   border-left-width: 4px !important;
@@ -365,11 +360,7 @@ em {
 .markdown-preview-view code {
   font-size: var(--font-size-code);
 }
-<<<<<<< Updated upstream
 .cm-header-1,
-=======
-.font-family-preview
->>>>>>> Stashed changes
 .markdown-preview-view h1 {
   font-family: var(--font-family-editor) !important;
   font-weight: 500;
@@ -411,24 +402,6 @@ em {
   font-size: var(--font-size-h6);
   color: var(--rp-h6);
 }
-<<<<<<< Updated upstream
-=======
-s,
-.cm-strikethrough {
-  color: var(--text-muted);
-}
-.cm-em,
-em {
-  color: var(--rp-iris) !important;
-  font-family: var(--font-family-accent) !important;
-}
-.cm-em.cm-formatting-em {
-  display: inline-flex;
-  width: 0.45rem;
-  font-size: 0.6rem;
-  vertical-align: text-top;
-}
->>>>>>> Stashed changes
 button{
 	font-family: var(--font-family-accent);
 	font-style: italic;
