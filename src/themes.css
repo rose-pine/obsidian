@@ -84,8 +84,8 @@
   --interactive-normal: var(--rp-overlay);
   --interactive-hover: var(--rp-highlightLow);
   --interactive-accent: var(--rp-highlightLow);
-  --interactive-accent-active: var(--rp-accent);
-  --interactive-accent-hover: var(--rp-accent);
+  --interactive-accent-active: var(--rp-highlightMed);
+  --interactive-accent-hover: var(--rp-highlightMed);
   --scrollbar-active-thumb-bg: var(--rp-overlay);
   --scrollbar-bg: var(--rp-overlay);
   --scrollbar-thumb-bg: var(--rp-overlay);
