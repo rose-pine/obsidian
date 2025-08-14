@@ -1,3 +1,10 @@
+.cm-underline {
+  color: var(--rp-accent);
+  text-decoration-color: var(--rp-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
 s,
 .cm-strikethrough {
   color: var(--text-muted);
