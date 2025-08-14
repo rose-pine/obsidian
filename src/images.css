@@ -1,3 +1,9 @@
+body {
+    --icon-color: var(--rp-text);
+    --icon-color-hover: var(--rp-text);
+    --background-modifier-hover: var(--rp-highlightMed)
+}
+
 img {
   display: block;
   margin-left: auto;
