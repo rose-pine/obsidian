@@ -4,7 +4,9 @@ body {
     --background-modifier-hover: var(--rp-highlightMed);
 }
 
-.clickable-icon {
+.clickable-icon,
+.mod-left-split .workspace-tab-header,
+.mod-right-split .workspace-tab-header {
   color: var(--icon-color) !important;
 }
 
