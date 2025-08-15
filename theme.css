@@ -4,7 +4,7 @@ body {
     --background-modifier-hover: var(--rp-highlightMed);
 }
 .clickable-icon {
-  color: var(--icon-color);
+  color: var(--icon-color) !important;
 }
 .clickable-icon:hover {
   color: var(--icon-color);
