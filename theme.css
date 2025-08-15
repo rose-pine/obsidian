@@ -3,6 +3,9 @@ body {
     --icon-color-hover: var(--rp-text);
     --background-modifier-hover: var(--rp-highlightMed)
 }
+mobile-navbar-actions {
+  color: var(--icon-color);
+}
 img {
   display: block;
   margin-left: auto;
@@ -324,6 +327,12 @@ settings:
 .rp-accent-love {
     --rp-accent: var(--rp-love)
 }
+.cm-underline {
+  color: var(--rp-accent);
+  text-decoration-color: var(--rp-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
 s,
 .cm-strikethrough {
   color: var(--text-muted);
@@ -454,7 +463,6 @@ a.tag:hover {
 .cm-hashtag,
 a.tag {
   color: var(--text-accent-hover) !important;
-  text-decoration: none !important;
   font-style: normal !important;
 }
 a,
@@ -463,7 +471,6 @@ a,
 .cm-link,
 .cm-formatting-link,
 .cm-url {
-  text-decoration: none !important;
 }
 .cm-s-obsidian span.cm-string {
   color: var(--text-accent-hover) !important;
@@ -823,15 +830,6 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  text-decoration: none;
-}
-.cm-s-obsidian span.cm-link {
-  background-image: linear-gradient(to bottom,
-	  var(--rp-iris) 0%,
-	  var(--rp-rose) 100%);
-}
-.cm-s-obsidian span.cm-hmd-internal-link {
-  background-image: linear-gradient(to bottom, var(--rp-iris) 0%, var(--rp-rose) 100%);
 }
 .cm-s-obsidian span.cm-formatting-link {
   color: var(--rp-love) !important;
@@ -845,7 +843,6 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  text-decoration: none;
   transition: all 350ms ease;
 }
 .external-link {
@@ -853,7 +850,6 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  text-decoration: none;
   transition: all 350ms ease;
 }
 .internal-link {
@@ -876,7 +872,6 @@ a,
 .internal-link,
 .cm-hmd-internal-link,
 .cm-link {
-  text-decoration: none !important;
   color: var(--text-sub-accent);
 }
 .cm-url {
@@ -890,7 +885,6 @@ a,
 }
 a:hover,
 .internal-link:hover {
-  text-decoration: none !important;
   color: var(--text-accent);
 }
 .cm-formatting-list {
