@@ -4,6 +4,10 @@ body {
     --background-modifier-hover: var(--rp-highlightMed)
 }
 
+mobile-navbar-actions {
+  color: var(--icon-color);
+}
+
 img {
   display: block;
   margin-left: auto;

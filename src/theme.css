@@ -56,7 +56,6 @@ a.tag:hover {
 .cm-hashtag,
 a.tag {
   color: var(--text-accent-hover) !important;
-  text-decoration: none !important;
   font-style: normal !important;
 }
 
@@ -66,7 +65,6 @@ a,
 .cm-link,
 .cm-formatting-link,
 .cm-url {
-  text-decoration: none !important;
 }
 
 .cm-s-obsidian span.cm-string {
@@ -516,17 +514,6 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  text-decoration: none;
-}
-
-.cm-s-obsidian span.cm-link {
-  background-image: linear-gradient(to bottom,
-	  var(--rp-iris) 0%,
-	  var(--rp-rose) 100%);
-}
-
-.cm-s-obsidian span.cm-hmd-internal-link {
-  background-image: linear-gradient(to bottom, var(--rp-iris) 0%, var(--rp-rose) 100%);
 }
 
 .cm-s-obsidian span.cm-formatting-link {
@@ -543,7 +530,6 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  text-decoration: none;
   transition: all 350ms ease;
 }
 
@@ -552,7 +538,6 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  text-decoration: none;
   transition: all 350ms ease;
 }
 
@@ -580,7 +565,6 @@ a,
 .internal-link,
 .cm-hmd-internal-link,
 .cm-link {
-  text-decoration: none !important;
   color: var(--text-sub-accent);
 }
 
@@ -597,7 +581,6 @@ a,
 
 a:hover,
 .internal-link:hover {
-  text-decoration: none !important;
   color: var(--text-accent);
 }
 
