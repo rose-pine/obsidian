@@ -1,11 +1,21 @@
 body {
-    --icon-color: var(--rp-text); !important
-    --icon-color-hover: var(--rp-text); !important
-    --background-modifier-hover: var(--rp-highlightMed); !important
+    --icon-color: var(--rp-text);
+    --icon-color-hover: var(--rp-text);
+    --background-modifier-hover: var(--rp-highlightMed);
 }
 
-mobile-navbar-actions {
+.clickable-icon {
   color: var(--icon-color);
+}
+
+.clickable-icon:hover {
+  color: var(--icon-color);
+  background-color: var(--background-modifier-hover);
+}
+
+.clickable-icon:active {
+  color: var(--icon-color);
+  background-color: var(--background-modifier-hover);
 }
 
 img {
