@@ -1,7 +1,7 @@
 body {
-    --icon-color: var(--rp-text);
-    --icon-color-hover: var(--rp-text);
-    --background-modifier-hover: var(--rp-highlightMed)
+    --icon-color: var(--rp-text); !important
+    --icon-color-hover: var(--rp-text); !important
+    --background-modifier-hover: var(--rp-highlightMed); !important
 }
 mobile-navbar-actions {
   color: var(--icon-color);
