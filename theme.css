@@ -158,7 +158,7 @@ settings:
     default: var(--rp-rose)
     options:
     -
-      label: Lovesans-serif
+      label: Love
       value: var(--rp-love)
     -
       label: Rose
