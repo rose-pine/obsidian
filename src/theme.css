@@ -171,6 +171,19 @@ strong kbd {
   -webkit-text-fill-color: initial;
 }
 
+.cm-strong span.cm-inline-code,
+strong code {
+  -webkit-text-fill-color: var(--rp-love) !important;
+  color: var(--rp-love) !important;
+  font-weight: bold !important;
+}
+
+.cm-strong span.cm-inline-code::selection,
+strong code::selection {
+  -webkit-text-fill-color: inherit !important;
+}
+
+
 .cm-s-obsidian span.cm-formatting-list {
   color: var(--text-normal) !important;
 }
@@ -465,7 +478,7 @@ ul .task-list-item ul::before {
   border: 0px !important;
 }
 
-an active line highlight in vim normal mode
+/* an active line highlight in vim normal mode */
 .cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
   background-color: var(--text-selection) !important;
 }
@@ -473,7 +486,6 @@ an active line highlight in vim normal mode
 code {
   color: var(--inline-code) !important;
   bottom: 0px !important;
-  color:
 }
 
 .graph-view.color-arrow {
