@@ -10,11 +10,9 @@ s,
   color: var(--text-muted);
 }
 
-
 .cm-em,
 em {
   color: var(--rp-iris) !important;
-  font-family: var(--font-family-accent) !important;
 }
 
 .cm-em.cm-formatting-em {

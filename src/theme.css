@@ -65,6 +65,7 @@ a,
 .cm-link,
 .cm-formatting-link,
 .cm-url {
+  text-decoration: none !important;
 }
 
 .cm-s-obsidian span.cm-string {
@@ -159,11 +160,6 @@ strong {
 
 strong .math.math-inline .MathJax {
   position: inherit !important;
-}
-
-.cm-strong::selection,
-strong::selection {
-  -webkit-text-fill-color: var(--text-faint);
 }
 
 .cm-strong kbd,
@@ -585,7 +581,7 @@ a:hover,
 }
 
 .cm-formatting-list {
-  color: var(--list) !important;
+  color: var(--list-marker-color) !important;
 }
 
 .cm-formatting-quote {
@@ -656,5 +652,25 @@ hr {
 
 body {
   background: var(--rp-base);
-  color: var(var(--rp-text));
+  color: var(--rp-text);
 }
+
+.theme-light,
+.theme-dark {
+  --callout-default: var(--rp-pine);
+  --callout-info: var(--rp-pine);
+  --callout-todo: var(--rp-pine);
+  --callout-success: var(--rp-pine);
+  --callout-summary: var(--rp-foam);
+  --callout-important: var(--rp-foam);
+  --callout-tip: var(--rp-foam);
+  --callout-question: var(--rp-gold);
+  --callout-warning: var(--rp-gold);
+  --callout-fail: var(--rp-love);
+  --callout-error: var(--rp-love);
+  --callout-bug: var(--rp-love);
+  --callout-example: var(--rp-iris);
+  --callout-quote: var(--rp-rose);
+}
+
+--quote-opening-modifier: var(--blockquote-border);

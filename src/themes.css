@@ -80,7 +80,6 @@
   --text-error-hover: var(--rp-love);
   --text-selection: var(--rp-highlightHigh);
 
-  --text-on-accent: var(--rp-accent);
   --interactive-normal: var(--rp-overlay);
   --interactive-hover: var(--rp-highlightLow);
   --interactive-accent: var(--rp-highlightLow);
