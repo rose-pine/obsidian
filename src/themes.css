@@ -74,13 +74,12 @@
   --text-accent-hover: var(--rp-accent);
   --text-normal: var(--rp-text);
   --text-muted: var(--rp-muted);
-  --text-faint: var(--rp-accent);
-  --text-highlight-bg: var(--rp-highlight);
+  --text-faint: var(--rp-subtle);
+  --text-highlight-bg: var(--rp-highlightMed);
   --text-error: var(--rp-love);
   --text-error-hover: var(--rp-love);
   --text-selection: var(--rp-highlightHigh);
 
-  --text-on-accent: var(--rp-accent);
   --interactive-normal: var(--rp-overlay);
   --interactive-hover: var(--rp-highlightLow);
   --interactive-accent: var(--rp-highlightLow);
@@ -107,4 +106,8 @@
   --border-color: var(--rp-highlightMed);
 
   --font-monospace: var(--font-family-code);
+
+  --interactive-accent: var(--rp-accent);
+  --interactive-accent-hover: var(--rp-accent);
+  --interactive-accent-active: var(--rp-accent);
 }
