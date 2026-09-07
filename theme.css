@@ -350,7 +350,6 @@ s,
 .cm-em,
 em {
   color: var(--rp-iris) !important;
-  font-family: var(--font-family-accent) !important;
 }
 .cm-em.cm-formatting-em {
   display: inline-flex;
@@ -481,6 +480,7 @@ a,
 .cm-link,
 .cm-formatting-link,
 .cm-url {
+  text-decoration: none !important;
 }
 .cm-s-obsidian span.cm-string {
   color: var(--text-accent-hover) !important;
@@ -558,10 +558,6 @@ strong {
 strong .math.math-inline .MathJax {
   position: inherit !important;
 }
-.cm-strong::selection,
-strong::selection {
-  -webkit-text-fill-color: var(--text-faint);
-}
 .cm-strong kbd,
 strong kbd {
   -webkit-text-fill-color: initial;
@@ -577,7 +573,8 @@ strong code::selection {
   -webkit-text-fill-color: inherit !important;
 }
 .cm-s-obsidian span.cm-formatting-list {
-  color: var(--text-normal) !important;
+  color: var(--text-muted) !important;
+  opacity: 1 !important;
 }
 .markdown-preview-view hr {
   border-top: none !important;
@@ -861,7 +858,7 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  transition: all 350ms ease;
+  transition: all 350ms ease !important;
 }
 .external-link {
   -webkit-text-fill-color: var(--rp-pine);
@@ -906,7 +903,7 @@ a:hover,
   color: var(--text-accent);
 }
 .cm-formatting-list {
-  color: var(--list) !important;
+  color: var(--list-marker-color) !important;
 }
 .cm-formatting-quote {
   color: var(--quote-opening-modifier) !important;
@@ -966,8 +963,26 @@ hr {
 }
 body {
   background: var(--rp-base);
-  color: var(var(--rp-text));
+  color: var(--rp-text);
 }
+.theme-light,
+.theme-dark {
+  --callout-default: var(--rp-pine);
+  --callout-info: var(--rp-pine);
+  --callout-todo: var(--rp-pine);
+  --callout-success: var(--rp-pine);
+  --callout-summary: var(--rp-foam);
+  --callout-important: var(--rp-foam);
+  --callout-tip: var(--rp-foam);
+  --callout-question: var(--rp-gold);
+  --callout-warning: var(--rp-gold);
+  --callout-fail: var(--rp-love);
+  --callout-error: var(--rp-love);
+  --callout-bug: var(--rp-love);
+  --callout-example: var(--rp-iris);
+  --callout-quote: var(--rp-rose);
+}
+--quote-opening-modifier: var(--blockquote-border);
 .theme-light,
 .theme-light.rose-dawn {
     --rp-base: #faf4ed;
@@ -1040,12 +1055,11 @@ body {
   --text-accent-hover: var(--rp-accent);
   --text-normal: var(--rp-text);
   --text-muted: var(--rp-muted);
-  --text-faint: var(--rp-accent);
-  --text-highlight-bg: var(--rp-highlight);
+  --text-faint: var(--rp-subtle);
+  --text-highlight-bg: var(--rp-highlightMed);
   --text-error: var(--rp-love);
   --text-error-hover: var(--rp-love);
   --text-selection: var(--rp-highlightHigh);
-  --text-on-accent: var(--rp-accent);
   --interactive-normal: var(--rp-overlay);
   --interactive-hover: var(--rp-highlightLow);
   --interactive-accent: var(--rp-highlightLow);
@@ -1068,4 +1082,7 @@ body {
   --vim-cursor: var(--rp-rose);
   --border-color: var(--rp-highlightMed);
   --font-monospace: var(--font-family-code);
+  --interactive-accent: var(--rp-accent);
+  --interactive-accent-hover: var(--rp-accent);
+  --interactive-accent-active: var(--rp-accent);
 }
