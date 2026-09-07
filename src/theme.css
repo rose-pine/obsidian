@@ -168,7 +168,8 @@ strong kbd {
 }
 
 .cm-s-obsidian span.cm-formatting-list {
-  color: var(--text-normal) !important;
+  color: var(--text-muted) !important;
+  opacity: 1 !important;
 }
 
 
@@ -526,7 +527,7 @@ em,
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 5px 5px;
-  transition: all 350ms ease;
+  transition: all 350ms ease !important;
 }
 
 .external-link {
