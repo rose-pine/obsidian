@@ -52,7 +52,7 @@ settings:
   -
     id: rosé-pine-theme
     title: Theme variants
-    description: Select your preferred theme, Rosé Pine Dawn is enabled by setting light mode on
+    description: Select your preferred theme, Rosé Pine Moon is enabled by setting light mode on
     type: class-select
     allowEmpty: false
     default: rose-norm
@@ -63,9 +63,6 @@ settings:
       -
         label: 'Rosé Pine Moon'
         value: rose-moon
-      -
-        label: 'Rosé Pine Dawn'
-        value: rose-dawn
   -
     id: rosé-pine-theme-accents
     title: Theme accent
